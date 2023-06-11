@@ -1,0 +1,44 @@
+@media (max-width: 850px) {
+    .all .section2 .frame2 ul{
+        flex-direction: column;
+        li{
+            margin: 10px;
+            width: 95%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    } 
+    .all .section3 .partner_frame ul{
+        flex-direction: column;
+        li{
+            margin: 10px;
+            width: 95%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .product .product_list ul{
+        flex-direction: column;
+        li{
+            margin: 10px;
+            width: 45%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    
+  }
+@media (max-width: 680px) {
+    .product .product_list ul{
+        flex-direction: column;
+        li{
+            margin: 10px;
+            width: 95%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .product .filter{
+        flex-direction: column;
+    }
+}

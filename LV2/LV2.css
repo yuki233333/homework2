@@ -1,0 +1,335 @@
+@import "cssreset.css";
+@import "RWD.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.all {
+  max-width: 100%;
+  background-color: black;
+  margin: auto;
+  color: #ffffff;
+}
+.all a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header_title {
+  margin: auto;
+}
+.header_title .header {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+}
+.header_title .header img {
+  display: block;
+  width: 15%;
+}
+.header_title .header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_title .header ul li {
+  padding: 10px;
+}
+.header_title .titles {
+  margin-top: 40px;
+  font-size: 120px;
+}
+.header_title .titles h3 {
+  padding-top: 24px;
+  font-weight: bold;
+}
+.header_title .titles button {
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: black;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+}
+.header_title .titles .arrow {
+  display: flex;
+  justify-content: end;
+}
+
+.section2 {
+  margin: 160px 0px;
+}
+.section2 .frame1 {
+  margin: 0px 12px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+}
+.section2 .frame1 h2 {
+  max-width: 40%;
+  font-size: 32px;
+}
+.section2 .frame1 p {
+  max-width: 60%;
+  font-size: 48px;
+  line-height: 120%;
+}
+.section2 .frame2 {
+  max-width: 100%;
+}
+.section2 .frame2 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.section2 .frame2 li {
+  width: 30%;
+  margin: 0px 12px;
+  border: 1px solid #525252;
+  border-radius: 16px;
+  padding: 80px 40px;
+}
+.section2 .frame2 h3 {
+  margin: 20px 0px;
+  font-size: 32px;
+  font-weight: 900;
+}
+.section2 .frame2 p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.section3 h2 {
+  margin: 80px 0px;
+  font-size: 32px;
+  font-weight: 900;
+}
+.section3 .logo ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section3 .logo ul li {
+  margin: 10px 20px;
+  overflow-x: hidden;
+  width: 15%;
+}
+.section3 .logo ul li img {
+  max-width: 100%;
+}
+.section3 .partner_frame ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0px;
+}
+.section3 .partner_frame li {
+  width: 30%;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+.section3 .partner_frame li h2 {
+  height: 215px;
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.section3 .partner_frame .partner_name {
+  display: flex;
+  align-items: center;
+}
+.section3 .partner_frame .partner_name div {
+  padding: 16px;
+}
+
+.product {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 140px;
+  padding: 100px 0px;
+}
+.product h2 {
+  padding: 80px 0px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 120%;
+}
+.product .search {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background: #F2F2F2;
+  border-radius: 16px;
+}
+.product .search input {
+  padding-left: 12px;
+  border: none;
+  background-color: #F2F2F2;
+}
+.product .filter {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.product .filter .filter_button {
+  padding: 8px 40px;
+  border: none;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.product .filter ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.product .filter ul li {
+  color: #919191;
+}
+.product .filter ul button {
+  margin: 4px;
+  padding: 8px 16px;
+  color: #919191;
+  border: none;
+  background-color: #ffffff;
+}
+.product .filter ul .all_button {
+  color: #020202;
+  font-weight: 700;
+  background: #F2F2F2;
+  border-radius: 16px;
+}
+.product .product_list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.product .product_list li {
+  margin: 20px 0px;
+  width: 30%;
+  border: 1px solid #F2F2F2;
+  border-radius: 16px;
+}
+.product .product_list img {
+  width: 100%;
+  height: 312px;
+  border-radius: 16px 16px 0px 0px;
+}
+.product .product_list .title {
+  height: 118px;
+  border-bottom: 1px solid #F2F2F2;
+}
+.product .product_list .title h2 {
+  padding: 20px 32px 0px 32px;
+  text-align: start;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 120%;
+}
+.product .product_list .title p {
+  padding: 12px 32px 20px 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+.product .product_list .author, .product .product_list .hashtag {
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product .product_list .author {
+  border-bottom: 1px solid #F2F2F2;
+}
+.product .product_list .author h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+.product .page {
+  width: 100%;
+  padding: 20px 32px;
+}
+.product .page ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.product .page li button {
+  margin: 0px 4px;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  border: none;
+  background-color: #ffffff;
+}
+.product .page li button:hover {
+  background-color: #020202;
+  color: #ffffff;
+}
+
+.section5 {
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section5 h2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 120%;
+}
+.section5 button {
+  margin-top: 40px;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #020202;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+}
+
+.footer {
+  max-width: 100%;
+}
+.footer .content {
+  padding: 80px 0px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.footer .content h2 {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 120%;
+}
+.footer .content img {
+  display: block;
+  height: 40px;
+}
+.footer .end {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .end ul {
+  display: flex;
+}
+.footer .end ul li {
+  padding: 0px 10px;
+}
+.footer .end button {
+  display: flex;
+  align-items: center;
+  background-color: #020202;
+  color: #FFFFFF;
+  border: none;
+}/*# sourceMappingURL=LV2.css.map */
